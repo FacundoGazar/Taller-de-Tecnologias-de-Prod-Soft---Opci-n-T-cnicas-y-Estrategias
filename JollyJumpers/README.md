@@ -1,4 +1,4 @@
-## **Context**
+## **Jolly Jumpers**
 
 A sequence of n > 0 integers is called a jolly jumper if the absolute values of the difference between successive elements take on all the values 1 through n − 1. For instance, 
 
