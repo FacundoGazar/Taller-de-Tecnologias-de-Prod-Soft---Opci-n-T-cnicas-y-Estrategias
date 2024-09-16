@@ -8,7 +8,7 @@ def load_seq():
     if seq_str == '\n' or seq_str=='':
         return None
 
-    return list(map(int, seq_str.rstrip().split())) #Saco los espacios del final del input, divido el input en strings independientes y los transformo a integers.
+    return list(map(int, seq_str.split())) #Divido el input en strings independientes y los transformo a integers.
 
 def is_jolly(seq):
     '''
@@ -31,6 +31,6 @@ while True:
         break
     
     if is_jolly(seq[1:]):
-        print("Jolly")
+        sys.stdout.write("Jolly" + "\n")
     else:
-        print("Not jolly")
+        sys.stdout.write("Not jolly" + "\n")
