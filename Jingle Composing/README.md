@@ -8,11 +8,7 @@ A jingle is divided into a sequence of measures, and a measure is formed by a se
 
 The duration of a note is indicated by its shape. In this problem, we will use uppercase letters to indicate a note's duration. The following table lists all the available notes:
 
-| Notes | 𝅝 |𝅗𝅥|𝅘𝅥|𝅘𝅥𝅮|𝅘𝅥𝅯|𝅘𝅥𝅰|𝅘𝅥𝅱|
-|--|--|--|--|--|--|--|--|--|
-| **Identifier** |W  |H|Q|E|S|T|X|
-|**Duration**|1|1/2|1/4|1/8|1/16|1/32|1/64|
-
+![notas musicales](https://resources.beecrowd.com/gallery/images/novos/Jingle%20Composing.png)
 
 The duration of a measure is the sum of the durations of its notes. In Marcos' jingles, each measure has the same duration. As Marcos is just a beginner, his famous teacher Johann Sebastian III taught him that the duration of a measure must always be 1.
 
