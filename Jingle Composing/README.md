@@ -13,6 +13,7 @@ The duration of a note is indicated by its shape. In this problem, we will use u
 | **Identifier** |W  |H|Q|E|S|T|X|
 |**Duration**|1|1/2|1/4|1/8|1/16|1/32|1/64|
 
+
 The duration of a measure is the sum of the durations of its notes. In Marcos' jingles, each measure has the same duration. As Marcos is just a beginner, his famous teacher Johann Sebastian III taught him that the duration of a measure must always be 1.
 
 For example, Marcos wrote a composition containing five measures, of which the first four have the correct duration and the last one is wrong. In the example below, each measure is surrounded with slashes and each note is represented as in the table above.
