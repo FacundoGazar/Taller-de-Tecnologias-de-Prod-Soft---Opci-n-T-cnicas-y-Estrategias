@@ -12,17 +12,17 @@ Output is the message translated to English, one word per line. Foreign words no
 
 ## Sample Input
 
-dog ogday 
-cat atcay 
-pig igpay 
-froot ootfray 
-loops oopslay
+    dog ogday 
+    cat atcay 
+    pig igpay 
+    froot ootfray 
+    loops oopslay
 
-atcay
-ittenkay
-oopslay
+    atcay
+    ittenkay
+    oopslay
 
 ## Sample Output
-cat 
-eh 
-loops
+    cat 
+    eh 
+    loops

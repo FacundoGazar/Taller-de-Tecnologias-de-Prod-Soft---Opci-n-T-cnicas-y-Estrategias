@@ -20,20 +20,20 @@ For each test case in the input output the number of working days we lose. Each 
 
 ## Sample Input
 
-2 
-14 
-3
-3 
-4 
-8 
-100 
-4 
-12 
-15 
-25 
-40 
+    2 
+    14 
+    3
+    3 
+    4 
+    8 
+    100 
+    4 
+    12 
+    15 
+    25 
+    40 
 
 ## Sample Output
 
-5 
-15
+    5 
+    15
