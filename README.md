@@ -1,5 +1,10 @@
 # Taller de Tecnologías de Producción Software - Técnicas y Estrategias
 
+<p align="center">
+  <img align="center" src="https://tenor.com/es/view/olivia-rodrigo-brutal-out-here-brutal-gif-24540462"/>
+</p>
+
+
 ## Objetivos
 
  - Reforzar y ampliar los conocimientos con el fin de perfeccionar las
