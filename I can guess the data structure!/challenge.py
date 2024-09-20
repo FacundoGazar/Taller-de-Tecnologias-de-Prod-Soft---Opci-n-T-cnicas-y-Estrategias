@@ -47,4 +47,4 @@ def find_type(n):
         return "not sure"
 
 for line in sys.stdin:
-    sys.stdout.write(find_type(int(line)
+    sys.stdout.write(find_type(int(line))
