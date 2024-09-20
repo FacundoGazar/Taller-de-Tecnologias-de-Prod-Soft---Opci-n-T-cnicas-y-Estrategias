@@ -1,18 +1,6 @@
 import sys
 from heapq import *
 
-def read_number():
-    '''
-        Lee el input para la cantidad de comandos que van a entrar
-    '''
-    
-    aux = sys.stdin.readline()
-    
-    if aux == '' or aux == '\n':
-        return None
-    
-    return int(aux)
-
 def find_type(n):
     '''
         Retorna el string del tipo de estructura de datos que logró descifrar
@@ -58,10 +46,5 @@ def find_type(n):
     else:
         return "not sure"
 
-while True:
-    n = read_number()
-    
-    if n is None:
-        break
-    
-    sys.stdout.write(find_type(n) + "\n")   
+for line in sys.stdin:
+    sys.stdout.write(find_type(int(line)
