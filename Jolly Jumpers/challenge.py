@@ -1,15 +1,5 @@
 import sys
 
-def load_seq():
-    '''
-        Funcion que lee el input para el desafio
-    '''
-    seq_str = sys.stdin.readline() #Linea completa del input
-    if seq_str == '\n' or seq_str=='':
-        return None
-
-    return list(map(int, seq_str.split())) #Divido el input en strings independientes y los transformo a integers.
-
 def is_jolly(seq):
     '''
         Funcion que devuelve "Jolly" si la secuencia de numeros (variable "seq") 
@@ -27,11 +17,8 @@ def is_jolly(seq):
         
     return True
 
-while True:
-    seq = load_seq()
-    
-    if seq is None:
-        break
+for line in sys.stdin:
+    seq = list(map(int, line.split()))
     
     if is_jolly(seq[1:]):
         sys.stdout.write("Jolly" + "\n")
