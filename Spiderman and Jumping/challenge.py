@@ -4,6 +4,9 @@ from math import log2
 # EL PEOR EJERCICIO DE TODA LA MATERIA, LO ODIE
 
 def minimal_energy(N, heights):
+    '''
+        Calcula el costo minimo de energia entre saltos que pesan para indices que son **2 
+    '''
     DP = [10 ** 9] * N   # Ponemos que el valor minimo de todas las posiciones es el valor maximo de las alturas segun el ejercicio
     DP[0] = 0   # El primero es cero pq ya estamos ahi
 
