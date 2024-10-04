@@ -1,6 +1,6 @@
 import sys
 
-# IMPORTANTE, NO FUNCIONA Y NO ENTIENDO POR QUE. SERA CONSULTADO HOY MISMO SI ME DAN BOLA
+# IMPORTANTE, NO FUNCIONA Y NO ENTIENDO POR QUE (me da el mismo output que 500 casos). SERA CONSULTADO HOY MISMO SI ME DAN BOLA
 
 def LCS(mom_suggestion, dad_suggestion):
     '''
@@ -11,8 +11,7 @@ def LCS(mom_suggestion, dad_suggestion):
     m = len(dad_suggestion) + 1
     
     # Inicializo toda la matriz en 0 pq es contadora
-    memo = [[0 for row in range(m)] for column in
-            range(n)]
+    memo = [[0 for row in range(m)] for column in range(n)]
     
     for I in range(1, n):
         for J in range(1, m):
@@ -20,6 +19,7 @@ def LCS(mom_suggestion, dad_suggestion):
                 memo[I][J] = memo[I-1][J-1] + 1 # Si hay coincidencia sumo en diagonal
             else:
                 memo[I][J] = max(memo[I-1][J], memo[I][J-1]) # Me copio del maximo entre el costado y arriba
+                
     return memo[n-1][m-1]
 
 def read_suggestion():
