@@ -6,7 +6,7 @@ def LCS(mom_suggestion, dad_suggestion):
     '''
         Devuelve la longitud de la subsecuencia mas comun
     '''
-    # Inicializo la cantidad de columnas y filas (el orden como tenga ganas) segun la cantidad de caracteres del string, + 1 porque puede ser null
+    # Inicializo la cantidad de columnas y filas segun la cantidad de caracteres del string, + 1 porque puede ser null
     n = len(mom_suggestion) + 1
     m = len(dad_suggestion) + 1
     
