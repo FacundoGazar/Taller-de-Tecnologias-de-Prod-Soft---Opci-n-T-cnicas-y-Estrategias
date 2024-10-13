@@ -1,7 +1,5 @@
 import sys
 
-# IMPORTANTE, NO FUNCIONA Y NO ENTIENDO POR QUE (me da el mismo output que 500 casos). SERA CONSULTADO HOY MISMO SI ME DAN BOLA
-
 def LCS(mom_suggestion, dad_suggestion):
     '''
         Devuelve la longitud de la subsecuencia mas comun
