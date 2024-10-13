@@ -1,8 +1,5 @@
 import sys
 
-# IMPORTANTE, NO FUNCIONA Y NO ENTIENDO POR QUE (ME DA TIME LIMIT EX pero localmente funciona). SERA CONSULTADO HOY MISMO SI ME DAN BOLA
-
-
 def ED(to_convert, reference):
     '''
         Devuelve la cantidad de operaciones minimas para convertir el argumento a en el argumento b
